@@ -8,10 +8,10 @@ if (!fs.existsSync(iconsDir)) {
 }
 
 // Simple SVG template for a placeholder icon
-const createSvgIcon = (size) => `
+const createSvgIcon = size => `
 <svg width="${size}" height="${size}" xmlns="http://www.w3.org/2000/svg">
   <rect width="100%" height="100%" fill="#000000"/>
-  <text x="50%" y="50%" font-family="Arial" font-size="${size/5}px" fill="white" text-anchor="middle" dominant-baseline="middle">
+  <text x="50%" y="50%" font-family="Arial" font-size="${size / 5}px" fill="white" text-anchor="middle" dominant-baseline="middle">
     ${size}x${size}
   </text>
 </svg>
@@ -25,4 +25,4 @@ sizes.forEach(size => {
   console.log(`Created ${filePath}`);
 });
 
-console.log('Icon generation complete!'); 
+console.log('Icon generation complete!');
