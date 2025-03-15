@@ -11,7 +11,7 @@ const withPWA = withPWAInit({
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
-  /* config options here */
+  // Turbopack is optional and can be enabled via the dev:turbo script
 };
 
 export default withPWA(nextConfig);
