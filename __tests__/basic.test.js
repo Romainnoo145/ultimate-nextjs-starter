@@ -1,5 +1,5 @@
-describe('Basic test suite', () => {
-  it('should pass this test', () => {
+describe('Basic test suite for Next.js app', () => {
+  it('should pass this test successfully', () => {
     expect(true).toBe(true);
   });
 });
