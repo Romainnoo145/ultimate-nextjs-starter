@@ -4,6 +4,6 @@ module.exports = {
   testPathIgnorePatterns: ['<rootDir>/node_modules/', '<rootDir>/.next/'],
   moduleDirectories: ['node_modules', '<rootDir>'],
   transform: {
-    '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest'
-  }
+    '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
+  },
 };
